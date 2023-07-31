@@ -1,34 +1,116 @@
 *{
     margin: 0;
     padding: 0;
+    /* box-sizing: border-box; */
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1170px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    margin-top: 40px;
+    padding-bottom: 84px;
+}
+
+.header__flex{
+    display: flex;
+    align-items: center;
+    gap: 500px;
 }
 
 .header__logo {
-    margin-top: 50px;
-}
-
-.header__textlogo {
-    margin-top: 45px;;
+    width: 137px;
+    height: 40px;
 }
 
 .header__menu {
-    margin-top: 51px;
+    width: 533px;
+    height: 17px;
+    display: flex;
+    justify-content: space-between;   
 }
 
-.top__content {
-    margin-top: 96;
-    margin-bottom: 259;
+.header__link {
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
+.header__link:hover {
+    color: #F25822;
+}
+
+/* section main */
 .title{
     margin-bottom: 17px;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #000;
 }
 
-.top__buttons{
-    margin-top: 37px;
+.text {
+    color: #888;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 37px;
 }
 
-.top__logo{
+.main__link{
+    color: #FFF;
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 50px;
+    padding: 1rem 2rem;
+    background-color: #F25822;
+    text-decoration: none;
+    margin-right: 20px;
+    border: 1px solid transparent;
+}
+
+.main__link:hover{
+    border: 1px solid #F25822;
+    color: #F25822;
+    background-color: #fff;
+}
+
+.flex{ 
+    display: flex;
+    justify-content: space-between;
+}
+
+.main {
+    margin-top: 96;
+    /* display: flex;
+    flex-direction: row;
+    gap: 41px; */
+}
+
+.main-left, .main-right {
+    width: 50%;
+}
+
+/* section logos */
+
+.logos{
     padding-top: 97px;
-    padding-bottom: 96px;
+    padding-bottom: 97px;
 }
